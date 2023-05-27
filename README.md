@@ -6,4 +6,5 @@
 4.1  rosrun racecar_description keyboard_teleop.py  开启键盘控制模式，wasd
 \cmd_vel的信息转化为ackermann_cmd_mux/output, 消息类型为AckermannDriveStamped
 4.2  rosrun racecar_description nav_sim.py  开启自主SLAM模式
+
 5.   <node pkg="rviz" type="rviz" name="rviz" args="-d $(find agv_control)/config/0326shiyan.rviz"/> 指令加载之前保存过的地图信息
