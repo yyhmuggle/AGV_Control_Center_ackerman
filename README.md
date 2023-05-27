@@ -1,0 +1,2 @@
+# AGV_Control_Center_ackerman
+目前本项目仍在初始阶段。在原有项目AGV_Control_Center基础上新修改了阿克曼车辆模型，在racecar_description中存放四轮小车.urdf。bringup中存放着地图gazebo的信息。最后在agv_control存放控制指令（反正暂时我还没用到）。start_navigation_test.launch为最终要的文件。
